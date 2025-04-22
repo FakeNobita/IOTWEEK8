@@ -165,14 +165,14 @@ const questions = [
       "A traditional routing protocol",
       "A queue management protocol",
       "An SDN protocol tailored for IoT devices",
-      "A physical connectivity protocol"
+      "A physical connectivity protocol."
     ],
     correctAnswer: 2,
-    explanation: "Sensor Openflow is an SDN protocol for IoT. Lecture 36@1:38."
+    explanation: "An SDN protocol tailored for IoT devices. Refer Lecture 36@1:38"
   },
   {
     id: 2,
-    question: "Mobi-Flow vs Conventional networking in message overhead?",
+    question: "With respect to Mobi-Flow, how does Mobi-Flow fare in comparison to Conventional networking in terms of message overhead?",
     options: [
       "Mobi-Flow > Conventional",
       "Mobi-Flow < Conventional",
@@ -180,49 +180,75 @@ const questions = [
       "None of the given"
     ],
     correctAnswer: 1,
-    explanation: "Mobi-Flow has lower message overhead. Lecture 36@16:08."
+    explanation: "Mobi-Flow has lower message overhead than conventional networking. Refer Lecture 36@16:08."
   },
   {
     id: 3,
     question: "Virtual Machines came before Cloud Computing.",
-    options: ["True", "False"],
+    options: [
+      "True",
+      "False"
+    ],
     correctAnswer: 0,
-    explanation: "Virtual Machines predate Cloud Computing. Lecture 37@8:00."
+    explanation: "Virtual Machines came before Cloud Computing. Refer Lecture 37@8:00"
   },
   {
     id: 4,
-    question: "Private cloud services cannot provide SaaS.",
-    options: ["True", "False"],
+    question: "Private cloud services cannot provide Software-as-a-Service (SaaS).",
+    options: [
+      "True",
+      "False"
+    ],
     correctAnswer: 1,
-    explanation: "Any cloud model can offer SaaS. Lecture 37@14:36."
+    explanation: "Any cloud deployment model can provide any cloud service model. Refer Lecture 37@14:36."
   },
   {
     id: 5,
-    question: "Which is a solution for mobility-aware flow rule placement in SDIoT?",
-    options: ["Mobility-Flow", "Mobile-Flow", "Mobi-Flow", "M-Flow"],
+    question: "Which among the following is a solution for mobility-aware flow rule placement in SDIoT?",
+    options: [
+      "Mobility-Flow",
+      "Mobile-Flow",
+      "Mobi-Flow",
+      "M-Flow"
+    ],
     correctAnswer: 2,
-    explanation: "Mobi-Flow is the proposed solution. Lecture 36@13:09."
+    explanation: "Mobi-Flow provides a solution for mobility-aware flow rule placement. Refer Lecture 36@13:09."
   },
   {
     id: 6,
-    question: "Which deployment model suits pushing private data on-premise but public globally?",
-    options: ["Private Cloud", "Public Cloud", "Hybrid Cloud", "Any of these"],
+    question: "Which cloud deployment model should be used for pushing public and private data differently, as per organization requirements?",
+    options: [
+      "Private Cloud",
+      "Public Cloud",
+      "Hybrid Cloud",
+      "Any of these"
+    ],
     correctAnswer: 2,
-    explanation: "Hybrid Cloud supports both public and private needs. Lecture 37, ppt 18."
+    explanation: "Hybrid cloud supports both public and private cloud features. Lecture 37, ppt No. 18."
   },
   {
     id: 7,
-    question: "Most on-premise cloud deployment model is:",
-    options: ["Private Cloud", "Public cloud", "IaaS", "PaaS"],
+    question: "Which among the following is the most on-premise cloud deployment model?",
+    options: [
+      "Private Cloud",
+      "Public cloud",
+      "IaaS",
+      "PaaS"
+    ],
     correctAnswer: 0,
-    explanation: "Private Cloud is the most on-premise model. Lecture 37@33:31."
+    explanation: "Private cloud is most on-premise. Refer Lecture 37@33:31."
   },
   {
     id: 8,
-    question: "Which client requires constant connection to cloud?",
-    options: ["Thin client", "Thick client", "Both", "None"],
+    question: "Which of the following type of client requires constant communication/connection with the cloud server?",
+    options: [
+      "Thin client",
+      "Thick client",
+      "Both thin and thick clients",
+      "None of these"
+    ],
     correctAnswer: 0,
-    explanation: "Thin clients need constant server communication. Lecture 37@20:00."
+    explanation: "Thin clients need constant communication with the server. Refer Lecture 37@20:00."
   },
   {
     id: 9,
@@ -234,45 +260,55 @@ const questions = [
       "Criticality, Integrity, Accountability"
     ],
     correctAnswer: 0,
-    explanation: "CIA = Confidentiality, Integrity, Availability. Lecture 39@21:01."
+    explanation: "'CIA' = Confidentiality, Integrity, Availability. Refer Lecture 39@21:01."
   },
   {
     id: 10,
-    question: "Accessing Spotify from browser is an example of:",
-    options: ["SaaS", "PaaS", "IaaS", "DaaS"],
+    question: "When accessing Spotify online without installing, which cloud service model are you using?",
+    options: [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "DaaS"
+    ],
     correctAnswer: 0,
-    explanation: "Spotify in-browser access is SaaS. Lecture 37@26:14, 38@13:16."
+    explanation: "Spotify is SaaS. Refer Lecture 37@26:14 AND 38@13:16."
   },
   {
     id: 11,
-    question: "Which levels of security are necessary in Cloud Computing?",
+    question: "With respect to Cloud Computing security, which of the following are necessary?",
     options: [
-      "Network Level only",
-      "Application Level only",
-      "Host Level only",
-      "All of Network, Host, and Application"
+      "Network Level Security but not Host Level Security",
+      "Application Level Security but not Host Level Security",
+      "Host Level Security but not Network Level Security",
+      "All of Network, Host and Application Level Security."
     ],
     correctAnswer: 3,
-    explanation: "All three levels are essential. Lecture 39."
+    explanation: "All levels of security are needed. Refer Lecture 39."
   },
   {
     id: 12,
-    question: "Which service models face security and client authentication issues?",
-    options: ["SaaS", "SaaS and PaaS", "IaaS", "All of them"],
+    question: "Data security and client authentication is an issue in which of the following cloud service models?",
+    options: [
+      "SaaS",
+      "SaaS and PaaS",
+      "IaaS",
+      "All of them"
+    ],
     correctAnswer: 3,
-    explanation: "All service models face these issues. Lecture 39."
+    explanation: "Security is a concern in all cloud models. Refer Lecture 39."
   },
   {
     id: 13,
-    question: "Role of a Hypervisor?",
+    question: "What is the role of a Hypervisor (most probable answer)?",
     options: [
-      "To install a router",
-      "Platform for virtual machines",
-      "To fabricate sensors",
-      "Communication between switches"
+      "To facilitate installation of a router",
+      "To provide a platform for executing virtual machines",
+      "To facilitate sensor fabrication",
+      "To communicate between switches themselves."
     ],
     correctAnswer: 1,
-    explanation: "Hypervisor runs virtual machines. Lecture 38@5:40."
+    explanation: "Hypervisors run virtual machines. Refer Lecture 38@5:40."
   },
   {
     id: 14,
@@ -281,17 +317,22 @@ const questions = [
       "Remote software execution",
       "Platform independence",
       "Centralized control",
-      "None of these"
+      "None of these."
     ],
     correctAnswer: 2,
-    explanation: "Centralized control is a limitation. Lecture 38@15:58."
+    explanation: "SaaS limitation: Centralized control. Refer Lecture 38@15:58."
   },
   {
     id: 15,
-    question: "__________ means independent of device or location.",
-    options: ["Scalable", "Reliability", "Agile", "Ubiquitous"],
+    question: "Fill in the blank: ____________ means independent of device or location.",
+    options: [
+      "Scalable",
+      "Reliability",
+      "Agile",
+      "Ubiquitous"
+    ],
     correctAnswer: 3,
-    explanation: "Ubiquitous means device/location-independent. Lecture 37@18:06."
+    explanation: "Ubiquitous = independent of device/location. Refer Lecture 37@18:06."
   }
 ];
 
